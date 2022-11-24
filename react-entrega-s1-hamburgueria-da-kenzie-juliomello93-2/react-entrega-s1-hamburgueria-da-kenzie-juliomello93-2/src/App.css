@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.cartRender {
+  min-width: 370px;
+  max-height: 400px;
+  overflow-x: hidden;
+}
+
+@media (min-width: 560px) {
+  .containerMain {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
