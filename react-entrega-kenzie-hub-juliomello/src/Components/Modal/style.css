@@ -1,0 +1,41 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  position: absolute;
+  height: 100vh;
+  left: 10px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0;
+}
+
+.container {
+  animation: fadeInRight;
+  animation-duration: 1s;
+}
+
+.headerModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #343b41;
+  padding: 5px;
+}
+
+.headerModal > span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.closeModal {
+  background-color: #343b41;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.content > form {
+  width: 200px;
+}
