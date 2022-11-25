@@ -1,0 +1,141 @@
+.welcome {
+    background-color: var(--grey3);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 224px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.welcome > h1{
+    font-size: 25px;
+    color: var(--grey6);
+}
+
+.welcome > p{
+    color: var(--grey4);
+}
+
+.welcome > button{
+    border: none;
+    background-color: var(--grey3);
+}
+
+.login {
+    background-color: var(--grey6);
+    width: 100%;
+    height: 390px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login > h2 {
+    color: var(--grey1);
+    font-size: 35px;
+}
+
+.login > input {
+    background-color: var(--grey4);
+    width: 280px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.btnSenha {
+    background-color: var(--grey6);
+    color: var(--grey1);
+    font-size: 12px;
+    align-self: center;
+    margin-left: 160px;
+    border: 1px solid transparent;
+}
+
+.btnLogin{
+    background-color: var(--grey3);
+    width: 280px;
+    height: 60px;
+    color: var(--grey6);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.modalContainer {    
+    width: 100vw;
+    height: 100vh;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+}
+
+.modalBackground {
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    background-color: var(--grey1);
+    opacity: 70%;
+}
+
+.divCabecalho{
+    z-index: 1;
+    background-color: var(--grey6);
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.divCabecalho > h3{
+    color: var(--grey1);
+    font-size: 28px;    
+}
+
+.divCabecalho > button {
+    font-size: 28px;
+    border: 1px solid transparent;
+    background-color: var(--grey6);
+    margin-right: 10px;
+}
+
+
+.divInformacao{    
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grey6);
+    padding: 10px;
+    gap: 10px;
+    z-index: 1;
+}
+
+.divInformacao > input {
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 90%;    
+}
+
+.divInformacao > button {
+    background-color: var(--grey3);
+    width: 120px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: var(--grey6);
+}

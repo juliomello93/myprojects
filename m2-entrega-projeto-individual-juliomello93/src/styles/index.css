@@ -1,0 +1,68 @@
+header {
+    background-color: var(--grey1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;    
+}
+
+header > h2 {
+    color: var(--grey3);
+}
+
+body{
+    background-color: var(--grey4);
+}
+
+nav > button {
+    background-color: var(--brand1);
+    border: 1px solid transparent;
+    padding: 2px;    
+    color: var(--white);
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    margin-top: 15px;
+    padding: 10px;
+    height: 150px;
+    border: 1px solid black;
+    width: 200px;
+    background-color: var(--grey3);   
+}
+
+#inputBuscar{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    height: 30px;
+    background-color: var(--grey4);
+    border: 1px solid var(--grey1);
+    border-radius: 5px;
+}
+
+#inputBuscar:hover{
+    background-color: var(--white);
+}
+
+.buscarEmpresas{
+    height: 30px;
+    background-color: var(--grey4);
+    border: 1px solid var(--grey1);
+    border-radius: 5px;
+    width: 55px;
+}
+
+.buscarEmpresas:hover{
+    background-color: var(--white);
+    cursor: pointer;
+}
+

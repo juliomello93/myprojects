@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="../styles/homepage.css">
+</head>
+<body>
+    <header>
+        <img src="../assets/TechPosters.png" alt="Logo">    
+        <button id="buttonLeave">Sair</button>
+    </header>
+    <div class="userContainer">
+        <div class="userImg">
+            <img id="imgUser" class="imagemUser" src="../assets/Ellipse 1.png" alt="">
+            <div class="userInfos" id="perfil">
+                <div>
+                    <h3 id="nameUser">Nome do Usuário</h3>
+                    <span id="followers">23</span>
+                </div>                
+                <p id="work_atUser">Work AT</p>
+            </div>           
+        </div>
+        <input class="postTitle" type="text" id="inputPostTitle" placeholder="Digitar título do post">
+        <input class="postDescription" type="text" id="inputPostDescription" placeholder="Digitar a descrição do post">
+        <button id="buttonPost">Postar</button>
+    </div>
+    <aside>
+        <h2>Sugestões para voce seguir!</h2>
+        <div id= "divUsersFollow" class="userInfosFollow">
+            
+        </div>
+    </aside>
+
+    <main class="containerPost">
+        
+    </main>
+
+    <script type ="module" src="../scripts/api.js"></script>
+    <script type ="module" src="../scripts/homepage.js"></script>
+</body>
+</html>
+
+<!-- 
+    Correções:
+    Faltou deixar a sugestões de seguir no desktop, fixo!
+    arrumar unfollow
+    modal de erro
+    controle de acesso ao dashboard, verificação no login
+    aleatoriedade nos usuarios
+ -->

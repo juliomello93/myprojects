@@ -1,0 +1,212 @@
+.filtroDeEmpresas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;   
+}
+
+.filtroDeEmpresas > h2 {
+    font-size: 18px;
+}
+
+.botoesFiltro > button {
+    width: 80px;
+    align-items: center;
+    justify-content: center;    
+}
+
+.botoesFiltro{    
+    display: flex;
+    gap: 10px;
+}
+
+
+.cardEmpresas{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+overflow: auto;
+gap: 10px;
+padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 240px;
+    min-width: 150px;
+    position: relative;
+}
+
+.card > button {    
+    position: absolute;
+    top: 210px;
+}
+
+.btnInfos{    
+    background-color: var(--grey1);
+    color: var(--grey4);
+    border: 1px solid transparent;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;    
+    align-self: center; 
+}
+
+.titulo{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cardFuncionarios{
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    gap: 10px;
+    margin-left: 10px;    
+}
+
+
+.departamentos{
+    display: flex;    
+    width: 100%;
+    gap: 10px;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+.novoDepartamento{
+    margin-left: 10px;
+}
+
+#criarDepartamento{
+background-color: var(--brand1);
+border: 1px solid transparent;
+border-radius: 5px;
+color: var(--white);
+padding: 5px;
+}
+
+#editarDepartamento{
+    background-color: green;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: var(--white);
+    padding: 5px;
+}
+
+#excluirDepartamento{
+    background-color: red;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: var(--white);
+    padding: 5px;
+}
+
+.divDepartamentosHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;    
+    padding: 10px;
+    border: 1px solid var(--grey1);
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.pValue{
+    font-size: 16px;
+    max-height: 50px;
+    margin-bottom: 10px;      
+}
+
+
+.divDepartamentosHome > div {
+    height: 30px;    
+    margin-top: 20px;
+}
+
+
+
+.cardEmpregados {
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin-left: 10px;
+    gap: 10px;
+    
+}
+
+.divBotoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+
+.btnContratar {
+    background-color: var(--brand1);
+    border: 1px solid transparent;
+    padding: 2px;
+    color: var(--white);
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnDemitir{
+    background-color: red;
+    opacity: 0.6;
+    border: 1px solid transparent;
+    padding: 2px;
+    color: var(--white);
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btnEditar {
+    background-color: green;
+    opacity: 0.6;
+    border: 1px solid transparent;
+    padding: 2px;
+    color: var(--white);
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.setores{
+    display: flex;    
+    margin-left: 10px;
+    gap: 10px;
+    overflow: auto;       
+}
+
+.setores > div {
+    border: 1px solid var(--brand1);
+    padding: 5px;
+    color: blue;   
+}
+
+.btnDeletar{
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: var(--grey1);
+}

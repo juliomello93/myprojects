@@ -1,0 +1,36 @@
+.divTotal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 320px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.containerTotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerTotal > h3 {
+  font-size: 16px;
+  color: #212529;
+  margin-left: 10px;
+  min-width: 200px;
+}
+
+.containerTotal > p {
+  margin-right: 10px;
+  color: #fd377e;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.divTotal > span {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}

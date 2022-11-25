@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/admin.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer type="module" src="../scripts/admin.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Logo!</h2>
+        <nav>
+            <button id="btnSair">Sair</button>
+            <button id="btnNovaEmpresa">Nova Empresa</button>
+        </nav>
+    </header>
+    <div class="filtroDeEmpresas">        
+        <h2> Filtre as empresas por seção</h2>
+        <button id="filtroTodas">Listar Todas!</button>
+        <div class="botoesFiltro">
+            <button id="filtroAlimenticio">Alimenticio</button>
+            <button id="filtroAutomotiva">Automotiva</button>
+            <button id="filtroTi">T.I</button>            
+        </div>
+    </div>
+    
+    <div id="cardEmpresas" class="cardEmpresas">
+    </div>
+    <h2 class="titulo">Todos os departamentos: </h2>
+    <div class="novoDepartamento">
+        <button id="criarDepartamento">Criar</button>
+        <button id="editarDepartamento">Editar</button>
+        <button id="excluirDepartamento">Excluir</button>
+    </div>
+    <div id="departamentos" class="departamentos">        
+    </div>
+
+    <h2 class="titulo">Setores:</h2>
+    <div id="setores" class="setores">
+    </div>
+
+    <h2 class="titulo">Usuários e Funcionários :</h2>   
+    <div id="cardFuncionarios" class="cardFuncionarios">        
+    </div>
+
+    <h2 class="titulo">Empregados</h2>
+    <div id="cardEmpregados" class="cardEmpregados">    
+    </div>
+
+
+    <script type ="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

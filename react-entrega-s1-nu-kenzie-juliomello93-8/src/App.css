@@ -1,0 +1,55 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap: 50px;
+}
+
+.App > img {
+  width: 400px;
+}
+
+.containerMain {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 500px) {
+  .App {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 620px) {
+  .containerMain {
+    display: flex;
+    flex-direction: row;
+  }
+}

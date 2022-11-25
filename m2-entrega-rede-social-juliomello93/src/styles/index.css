@@ -1,0 +1,33 @@
+header{
+    background-color: var(--grey1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px 15px;
+}
+
+header > img {
+    width: 100px;
+    height: 15px;
+}
+
+.botoes{
+    height: 50px;
+}
+
+.btnHeader {
+    background-color: var(--grey1);
+    border: 1px solid transparent;
+    color: var(--grey4);
+    height: 30px;
+    margin-right: 10px;
+    width: 60px;
+    border-radius: 8px;
+    margin-top: 10px;    
+}
+
+.btnHeader:hover {
+    cursor: pointer;
+    background-color: var(--grey3);    
+}

@@ -1,0 +1,30 @@
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  gap: 10px;
+}
+
+.containerLogin > img {
+  max-width: 150px;
+}
+
+.containerLogin > h2 {
+  font-size: 38px;
+  align-self: flex-start;
+}
+
+.containerLogin > span {
+  font-size: 14px;
+}
+
+.containerLogin > button {
+  background-color: #fd377e;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+}

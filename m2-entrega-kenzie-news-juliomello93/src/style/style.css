@@ -1,0 +1,162 @@
+body{
+    background-color: #F9F9F9;;
+    width: 100%;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5163D3;
+    width: 100%;    
+}
+
+header > img{
+    align-items: center;
+    margin: 10px auto;
+}
+
+.divImagem{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;    
+}
+
+.divImagem img{
+    max-width: 100%;
+}
+
+.divInfomacoes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.divInfomacoes > button{
+    margin-left: 10px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto
+}
+
+li{
+    margin: 10px auto;
+}
+
+button {
+    background-color: #D7E4FB;
+    color: #5163D3;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+
+h1{
+    color: #5163D3;
+    font-weight: 500;
+    padding: 10px
+}
+
+p{
+    color: #1B1C1E;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px;
+}
+
+span{
+    font-size: 10px;
+    font-weight: 300;
+    color: #1B1C1E;
+    padding: 10px
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 600px){
+    body{
+        background: #F9F9F9;
+    }
+
+    .divImagem{
+        display: flex;
+        min-width: 270px;
+        margin: 0px;
+    }
+
+    .divImagem > img {
+        min-height: 180px;
+    }
+
+    .divInfomacoes{
+        padding: 0px;
+        width: 100%;
+        min-height: 180px;
+
+    }
+
+    .divInfomacoes > button{        
+        padding: 0px;
+    }
+
+    .divInfomacoes > h1{
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .divInfomacoes > p{
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .divInfomacoes > span {
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;                
+    }
+
+    ul li {
+        display: flex;
+        height: 180px;
+        background: #FFFFFF;        
+        width: 569px;
+        border: 1px solid #EEEEEE;
+        box-shadow: 3px 3px 5px rgba(27, 28, 30, 0.1);
+        border-radius: 4px;
+    }
+    
+
+    footer{
+        background: #EEEEEE;
+        font-size: 12px;
+    }
+}
+
+
+/* COMO REGULAR O TEXTO DENTRO DO QUADRADO!!! */

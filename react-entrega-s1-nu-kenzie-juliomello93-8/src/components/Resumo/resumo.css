@@ -1,0 +1,35 @@
+.containerResumo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  height: 40px;
+  width: 390px;
+  gap: 10px;
+}
+
+.containerResumo > p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.divButtons {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.divButtons > button {
+  height: 30px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  color: #343a40;
+}
+
+.divButtons > button:hover {
+  background-color: #fd377e;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+.containerImg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.containerImg > img {
+  width: 385px;
+  height: 80px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  height: 80px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  gap: 5px;
+  border-left: 3px solid #03b898;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cardInformation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cardInformation > button {
+  margin-right: 10px;
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cardInformation > p {
+  min-width: 210px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.cardInformation > span {
+  font-size: 12px;
+  color: #212529;
+}
+
+.card > span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #343a40;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.cardOut {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  height: 80px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  gap: 5px;
+  border-left: 3px solid red;
+  margin-bottom: 10px;
+}
+
+.cardOut > span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #343a40;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .containerResumo {
+    margin-left: 20px;
+  }
+
+  .containerImg {
+    margin-left: 20px;
+  }
+
+  .card {
+    margin-left: 20px;
+  }
+}
